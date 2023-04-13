@@ -1,8 +1,9 @@
+import index from "@/views/login/index.vue";
 export default [
     {
         path: '/',
         name: 'home',
-        component: test
+        component: index
     },
     {
         path: '/foo',
