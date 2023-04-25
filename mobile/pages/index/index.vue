@@ -8,6 +8,9 @@
 </template>
 
 <script>
+	import {
+		httpApi
+	} from "../../config/api.js"
 	export default {
 		data() {
 			return {
@@ -15,7 +18,7 @@
 			}
 		},
 		onLoad() {
-
+			httpApi.getMenu()
 		},
 		methods: {
 
