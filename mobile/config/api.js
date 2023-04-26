@@ -2,7 +2,7 @@ const http = uni.$u.http
 class HttpApi {
 	constructor() {};
 	getMenu() {
-		http.get('/ebapi/public_api/index', data)
+		return http.get('/dataApi/news/navlist.php')
 	};
 }
 // post请求，获取菜单

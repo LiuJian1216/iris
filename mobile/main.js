@@ -38,7 +38,7 @@ try {
 const app = new Vue({
   ...App
 })
-require('/config/request.js')(app)
+require('./config/request.js')(app)
 app.$mount()
 // #endif
 

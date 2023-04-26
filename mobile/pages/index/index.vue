@@ -18,7 +18,9 @@
 			}
 		},
 		onLoad() {
-			httpApi.getMenu()
+			httpApi.getMenu().then(res=>{
+				console.log(res)
+			})
 		},
 		methods: {
 
